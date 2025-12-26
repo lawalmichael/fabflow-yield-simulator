@@ -9,7 +9,10 @@ This project is a simplified semiconductor fabrication process simulator designe
 - Visualizes yield and process performance metrics
 
 ## How to Run (Placeholder)
-Instructions for running the simulator will be added once the initial implementation is complete.
+1. Open the notebook in Google Colab.
+2. Run the first cell to install dependencies:
+   ```python
+   !pip install numpy pandas matplotlib scipy
 
 ## Tech Stack
 - Python
