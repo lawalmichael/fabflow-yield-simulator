@@ -1,0 +1,45 @@
+{
+  "flow_name": "Fab Process Flow (5 Steps)",
+  "steps": [
+    {
+      "name": "Lithography",
+      "base_defects_per_wafer": 0.25,
+      "sigma": 0.030,
+      "rework_prob": 0.08,
+      "cycle_time_min": 55,
+      "tool_uptime": 0.88
+    },
+    {
+      "name": "Plasma Etch",
+      "base_defects_per_wafer": 0.35,
+      "sigma": 0.040,
+      "rework_prob": 0.10,
+      "cycle_time_min": 70,
+      "tool_uptime": 0.85
+    },
+    {
+      "name": "Deposition (PVD/CVD/ALD)",
+      "base_defects_per_wafer": 0.20,
+      "sigma": 0.025,
+      "rework_prob": 0.06,
+      "cycle_time_min": 60,
+      "tool_uptime": 0.90
+    },
+    {
+      "name": "CMP (Planarization)",
+      "base_defects_per_wafer": 0.15,
+      "sigma": 0.020,
+      "rework_prob": 0.05,
+      "cycle_time_min": 50,
+      "tool_uptime": 0.92
+    },
+    {
+      "name": "Metrology / Inspection",
+      "base_defects_per_wafer": 0.05,
+      "sigma": 0.010,
+      "rework_prob": 0.03,
+      "cycle_time_min": 25,
+      "tool_uptime": 0.95
+    }
+  ]
+}
