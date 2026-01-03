@@ -41,6 +41,7 @@ Y_die_total = exp(-(Σ D_i) * A)
 - Dies per wafer (approx): 614
 
 ## Reported outputs per wafer (v1)
+These outputs are computed programmatically within the simulator after each wafer completes the full process flow.
 - totalDefects
 - defectsByStep
 - dieYieldByStep
